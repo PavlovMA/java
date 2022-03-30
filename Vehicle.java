@@ -21,8 +21,7 @@ public class masv {
         double distance = scanner.nextDouble();
 
 
-        System.out.println("Time to overcome a given distance for " + car.carName + " will be " + String.format("%.2f",car.TimeForTrip(distance)) + "ч. - " + String.format("%.0f",car.TimeForTrip(distance) * 60) + " minutes" +
-                "\nThis will require " + car.FuelForTrip(distance)+ "l. fuel");
+        System.out.println("Time to overcome a given distance for " + car.carName + " will be " + String.format("%.2f",car.TimeForTrip(distance)) + "ч. - " + String.format("%.0f",car.TimeForTrip(distance) * 60) + " minutes" +  "\nThis will require " + car.FuelForTrip(distance)+ "  l. fuel");
 
         System.out.println("\nParameters:");
         car.ShowParametrs();
